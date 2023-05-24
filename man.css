@@ -1,0 +1,45 @@
+/*  to make alignment of miission */
+
+body {
+    background-color: #ECCDB4;
+}
+
+.change1 {
+    height: 100vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:500px) {
+    .change1 {
+        height: 110vh !important;
+    }
+    .change3 {
+        display: flex !important;
+        justify-content: center;
+    }
+}
+
+.change {
+    width: 70vw !important;
+}
+
+img {
+    height: 45vh !important;
+}
+
+
+/* space between team mem */
+
+.row {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+
+/* to fit team mem in center */
+
+.change4 {
+    margin: 0px 0px 0px 11vw !important;
+}
